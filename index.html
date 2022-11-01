@@ -17,9 +17,9 @@
                 <h2>Bootstrap 그리드 안에, <em>iframe</em>으로 Colog 사이트를 임베드 해 보겠습니다.</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col col-12 col-lg-8">
-                <iframe src="https://web-site-dev.cdn.colog.us/b/DlWSCcs56EG3RAgZpH-6bQ/embed?eo=eyJiaE4iOjEsInNDQyI6MX0" style="overflow: hidden;width: 100%;height: 100%;" onload="javascript:(function(o){console.log(o.style.height);}(this));"></iframe>
+                <iframe src="https://web-site-dev.cdn.colog.us/b/DlWSCcs56EG3RAgZpH-6bQ/embed?eo=eyJiaE4iOjEsInNDQyI6MX0" style="overflow: hidden;width: 100%;height: 100%;" onload="javascript:(function(o){window.addEventListener('message',function(e){if (typeof e.data==='undefined') return;const d=e.data;if (d==null||typeof d.t==='undefined'||d.t==null) return;switch (d.t){case 'hr':case 'resize':o.style.height=e.data.sh+'px';break;}});o.contentWindow.postMessage({cl:1,t:'rh'},'*');}(this));"></iframe>
             </div>
             <div class="col col-12 col-lg-4">
                 <p>
