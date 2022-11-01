@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>임베드 데모 사이트</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Colog 임베드 데모</h1>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-12">
+                <h2>Bootstrap 그리드 안에, <em>iframe</em>으로 Colog 사이트를 임베드 해 보겠습니다.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12 col-lg-8">
+                <iframe src="https://web-site-dev.cdn.colog.us/b/DlWSCcs56EG3RAgZpH-6bQ/embed?eo=eyJiaE4iOjEsInNDQyI6MX0" style="overflow: hidden;width: 100%;height: 100%;" onload="javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+'px';}(this));"></iframe>
+            </div>
+            <div class="col col-12 col-lg-4">
+                <p>
+                    이것은 텍스트 컨텐츠 예시입니다.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
